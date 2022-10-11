@@ -1,0 +1,788 @@
+Archive member included because of file (symbol)
+
+c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+                              main.c.o (vas_get_id)
+c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+                              main.c.o (mm_map_lpar_memory_region)
+c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+                              main.c.o (sleep)
+c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                              c:/erkdumper/plfw/tier\libtier.a(mm.c.o) (_lv1_write_htab_entry)
+c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+                              main.c.o (lv2_memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+lv2_fs_dirent       0x403             main.c.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 data.c.o
+ .data          0x0000000000000000        0x0 data.c.o
+ .bss           0x0000000000000000        0x0 data.c.o
+ .toc           0x0000000000000000        0x0 data.c.o
+ .text          0x0000000000000000        0x0 main.c.o
+ .data          0x0000000000000000        0x0 main.c.o
+ .bss           0x0000000000000000        0x0 main.c.o
+ COMMON         0x0000000000000000      0x403 main.c.o
+ .text          0x0000000000000000        0x0 spu.c.o
+ .data          0x0000000000000000        0x0 spu.c.o
+ .bss           0x0000000000000000        0x0 spu.c.o
+ .toc           0x0000000000000000        0x0 spu.c.o
+ .text.spu_in_mbox_write
+                0x0000000000000000       0x18 spu.c.o
+ .text.spu_run_req
+                0x0000000000000000       0x1c spu.c.o
+ .text.spu_mbox_stat_in_mbox_count
+                0x0000000000000000       0x18 spu.c.o
+ .text          0x0000000000000000        0x0 start.s.o
+ .data          0x0000000000000000        0x0 start.s.o
+ .bss           0x0000000000000000        0x0 start.s.o
+ .text          0x0000000000000000        0x0 util.s.o
+ .data          0x0000000000000000        0x0 util.s.o
+ .bss           0x0000000000000000        0x0 util.s.o
+ .func_hang     0x0000000000000000        0x4 util.s.o
+ .opd           0x0000000000000000       0x18 util.s.o
+ .text          0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .data          0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .bss           0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .toc           0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .text          0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .data          0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .bss           0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .toc           0x0000000000000000       0x10 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .text.mm_lpar_addr_to_ra
+                0x0000000000000000       0xc4 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .text.mm_phys_ra_to_lpar_addr
+                0x0000000000000000       0xb8 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .data.va_addr.2621
+                0x0000000000000000        0x8 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .rodata.lpar_ra_regions.2638
+                0x0000000000000000      0x1c8 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .text          0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+ .data          0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+ .bss           0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+ .toc           0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+ .text          0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .data          0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .bss           0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_allocate_memory
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_write_htab_entry
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_construct_virtual_address_space
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_invalidate_htab_entries
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_query_logical_partition_address_region_info
+                0x0000000000000000       0x60 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_select_virtual_address_space
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_pause
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_destruct_virtual_address_space
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_configure_irq_state_bitmap
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_connect_irq_plug
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_release_memory
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_put_iopte
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_disconnect_irq_plug
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_construct_event_receive_port
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_destruct_event_receive_port
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_send_event_locally
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_detect_pending_interrupts
+                0x0000000000000000       0x54 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_end_of_interrupt
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_construct_and_connect_irq_plug
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_destruct_irq_plug
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_end_of_interrupt_ext
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_did_update_interrupt_mask
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_shutdown_logical_partition
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_spu_transition_notifier
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_disable_logical_spu
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_interrupt_mask
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_get_logical_partition_id
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_configure_execution_time_variable
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_get_spu_irq_outlet
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_create_repository_node
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_get_repository_node_value
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_modify_repository_node_value
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_remove_repository_node
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_read_htab_entries
+                0x0000000000000000       0x60 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_dabr
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_vmx_graphics_mode
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_thread_switch_control_register
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_get_total_execution_time
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_undocumented_function_114
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_undocumented_function_115
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_allocate_io_segment
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_release_io_segment
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_allocate_ioid
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_release_ioid
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_construct_io_irq_outlet
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_destruct_io_irq_outlet
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_map_htab
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_unmap_htab
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_get_version_info
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_read_virtual_uart
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_write_virtual_uart
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_virtual_uart_param
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_get_virtual_uart_param
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_configure_virtual_uart_irq
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_open_device
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_close_device
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_map_device_mmio_region
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_unmap_device_mmio_region
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_allocate_device_dma_region
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_free_device_dma_region
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_map_device_dma_region
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_unmap_device_dma_region
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_read_pci_config
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_write_pci_config
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_read_pci_io
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_write_pci_io
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_net_add_multicast_address
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_net_remove_multicast_address
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_net_start_tx_dma
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_net_stop_tx_dma
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_net_start_rx_dma
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_net_stop_rx_dma
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_net_set_interrupt_status_indicator
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_net_set_interrupt_mask
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_net_control
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_connect_interrupt_event_receive_port
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_disconnect_interrupt_event_receive_port
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_get_spu_all_interrupt_statuses
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_deconfigure_virtual_uart_irq
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_open
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_close
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_device_map
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_device_unmap
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_memory_allocate
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_memory_free
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_context_allocate
+                0x0000000000000000       0x60 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_context_free
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_context_iomap
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_context_attribute
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_context_intr
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_gpu_attribute
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_get_rtc
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_ppu_periodic_tracer_frequency
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_start_ppu_periodic_tracer
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_stop_ppu_periodic_tracer
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_storage_read
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_storage_write
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_storage_send_device_command
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_storage_get_async_status
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_storage_check_async_status
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_panic
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_construct_lpm
+                0x0000000000000000       0x44 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_destruct_lpm
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_start_lpm
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_stop_lpm
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_copy_lpm_trace_buffer
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_add_lpm_event_bookmark
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_delete_lpm_event_bookmark
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_lpm_interrupt_mask
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_get_lpm_interrupt_status
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_lpm_general_control
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_lpm_interval
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_lpm_trigger_control
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_lpm_counter_control
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_lpm_group_control
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_lpm_debug_bus_control
+                0x0000000000000000       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_lpm_counter
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_lpm_signal
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func__lv1_set_lpm_spr_trigger
+                0x0000000000000000       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .func_hvcallv  0x0000000000000000       0x6c c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .text          0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .data          0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .bss           0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_get_current_proc
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_proc_get_pid
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_sys_open
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_sys_read
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_sys_write
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_sys_close
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_fs_open
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_fs_read
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_fs_write
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_fs_lseek
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_fs_stat
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_fs_close
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_memcmp
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_strlen
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_strcpy
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_strncmp
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_allocate
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_deallocate
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_allocate_0x35
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_deallocate_0x35
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_copy_from_user
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_get_milliseconds
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_snprintf
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_sprintf
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ .func_lv2_printf
+                0x0000000000000000       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD data.c.o
+LOAD main.c.o
+LOAD spu.c.o
+LOAD start.s.o
+LOAD util.s.o
+LOAD c:/erkdumper/plfw/tier\libtier.a
+                0x80000000007f0000                __payload_base = 0x80000000007f0000
+                0x80000000007f0000                . = __payload_base
+                0x80000000007f0000                __self_start = .
+
+.start          0x80000000007f0000       0x38
+ *(.start)
+ .start         0x80000000007f0000       0x38 start.s.o
+                0x80000000007f0000                _start
+                0x80000000007f0040                . = ALIGN (0x20)
+
+.text           0x80000000007f0040      0x918
+ *(.text)
+ *(.text.*)
+ .text.payload  0x80000000007f0040      0x560 main.c.o
+                0x80000000007f0040                .payload
+ .text.spu_slb_invalidate_all
+                0x80000000007f05a0       0x44 spu.c.o
+                0x80000000007f05a0                .spu_slb_invalidate_all
+ .text.spu_slb_set_entry
+                0x80000000007f05e4       0x38 spu.c.o
+                0x80000000007f05e4                .spu_slb_set_entry
+ .text.spu_in_mbox_write_64
+                0x80000000007f061c       0x24 spu.c.o
+                0x80000000007f061c                .spu_in_mbox_write_64
+ .text.spu_sig_notify_1_2_write_64
+                0x80000000007f0640       0x2c spu.c.o
+                0x80000000007f0640                .spu_sig_notify_1_2_write_64
+ .text.spu_iso_load_req_enable
+                0x80000000007f066c       0x1c spu.c.o
+                0x80000000007f066c                .spu_iso_load_req_enable
+ .text.spu_iso_load_req
+                0x80000000007f0688       0x1c spu.c.o
+                0x80000000007f0688                .spu_iso_load_req
+ .text.spu_iso_exit_req
+                0x80000000007f06a4       0x1c spu.c.o
+                0x80000000007f06a4                .spu_iso_exit_req
+ .text.spu_stop_req
+                0x80000000007f06c0       0x1c spu.c.o
+                0x80000000007f06c0                .spu_stop_req
+ .text.spu_mbox_stat_intr_out_mbox_count
+                0x80000000007f06dc       0x18 spu.c.o
+                0x80000000007f06dc                .spu_mbox_stat_intr_out_mbox_count
+ .text.spu_mbox_stat_out_mbox_count
+                0x80000000007f06f4       0x18 spu.c.o
+                0x80000000007f06f4                .spu_mbox_stat_out_mbox_count
+ .text.spu_mfc_cmd_exec
+                0x80000000007f070c       0x48 spu.c.o
+                0x80000000007f070c                .spu_mfc_cmd_exec
+ .text.spu_mfc_cmd_tag_status
+                0x80000000007f0754       0x34 spu.c.o
+                0x80000000007f0754                .spu_mfc_cmd_tag_status
+ .text.vas_get_id
+                0x80000000007f0788       0x48 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+                0x80000000007f0788                .vas_get_id
+ .text.mm_insert_htab_entry
+                0x80000000007f07d0       0xc8 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+                0x80000000007f07d0                .mm_insert_htab_entry
+ .text.mm_map_lpar_memory_region
+                0x80000000007f0898       0x94 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+                0x80000000007f0898                .mm_map_lpar_memory_region
+ .text.sleep    0x80000000007f092c       0x2c c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+                0x80000000007f092c                .sleep
+
+.sfpr           0x80000000007f0958       0x70
+ .sfpr          0x80000000007f0958       0x70 linker stubs
+                0x80000000007f0958                _savegpr0_23
+                0x80000000007f0960                _savegpr0_25
+                0x80000000007f0974                _savegpr0_30
+                0x80000000007f0978                _savegpr0_31
+                0x80000000007f0984                _restgpr0_23
+                0x80000000007f098c                _restgpr0_25
+                0x80000000007f09b4                _restgpr0_30
+                0x80000000007f09b8                _restgpr0_31
+
+.glink          0x80000000007f09c8        0x0
+ .glink         0x0000000000000000        0x0 linker stubs
+
+.func__lv1_get_virtual_address_space_id_of_pu
+                0x80000000007f09c8       0x30
+ .func__lv1_get_virtual_address_space_id_of_pu
+                0x80000000007f09c8       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f09c8                ._lv1_get_virtual_address_space_id_of_pu
+
+.func__lv1_destruct_logical_spu
+                0x80000000007f09f8       0x20
+ .func__lv1_destruct_logical_spu
+                0x80000000007f09f8       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f09f8                ._lv1_destruct_logical_spu
+
+.func__lv1_construct_logical_spu
+                0x80000000007f0a18       0x54
+ .func__lv1_construct_logical_spu
+                0x80000000007f0a18       0x54 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f0a18                ._lv1_construct_logical_spu
+
+.func__lv1_set_spu_interrupt_mask
+                0x80000000007f0a70       0x20
+ .func__lv1_set_spu_interrupt_mask
+                0x80000000007f0a70       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f0a70                ._lv1_set_spu_interrupt_mask
+
+.func__lv1_clear_spu_interrupt_status
+                0x80000000007f0a90       0x20
+ .func__lv1_clear_spu_interrupt_status
+                0x80000000007f0a90       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f0a90                ._lv1_clear_spu_interrupt_status
+
+.func__lv1_get_spu_interrupt_status
+                0x80000000007f0ab0       0x30
+ .func__lv1_get_spu_interrupt_status
+                0x80000000007f0ab0       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f0ab0                ._lv1_get_spu_interrupt_status
+
+.func__lv1_get_logical_pu_id
+                0x80000000007f0ae0       0x30
+ .func__lv1_get_logical_pu_id
+                0x80000000007f0ae0       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f0ae0                ._lv1_get_logical_pu_id
+
+.func__lv1_set_spu_privilege_state_area_1_register
+                0x80000000007f0b10       0x20
+ .func__lv1_set_spu_privilege_state_area_1_register
+                0x80000000007f0b10       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f0b10                ._lv1_set_spu_privilege_state_area_1_register
+
+.func__lv1_insert_htab_entry
+                0x80000000007f0b30       0x44
+ .func__lv1_insert_htab_entry
+                0x80000000007f0b30       0x44 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f0b30                ._lv1_insert_htab_entry
+
+.func__lv1_enable_logical_spu
+                0x80000000007f0b78       0x20
+ .func__lv1_enable_logical_spu
+                0x80000000007f0b78       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f0b78                ._lv1_enable_logical_spu
+
+.func_lv2_memset
+                0x80000000007f0b98       0x3c
+ .func_lv2_memset
+                0x80000000007f0b98       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+                0x80000000007f0b98                .lv2_memset
+
+.func_lv2_memcpy
+                0x80000000007f0bd4       0x3c
+ .func_lv2_memcpy
+                0x80000000007f0bd4       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+                0x80000000007f0bd4                .lv2_memcpy
+
+.func_lv2_copy_to_user
+                0x80000000007f0c10       0x3c
+ .func_lv2_copy_to_user
+                0x80000000007f0c10       0x3c c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+                0x80000000007f0c10                .lv2_copy_to_user
+                0x80000000007f0c60                . = ALIGN (0x20)
+
+.opd            0x80000000007f0c60      0x448
+ *(.opd)
+ .opd           0x80000000007f0c60       0x18 main.c.o
+                0x80000000007f0c60                payload
+ .opd           0x80000000007f0c78      0x120 spu.c.o
+                0x80000000007f0c78                spu_slb_invalidate_all
+                0x80000000007f0c90                spu_slb_set_entry
+                0x80000000007f0ca8                spu_in_mbox_write_64
+                0x80000000007f0cc0                spu_sig_notify_1_2_write_64
+                0x80000000007f0cd8                spu_iso_load_req_enable
+                0x80000000007f0cf0                spu_iso_load_req
+                0x80000000007f0d08                spu_iso_exit_req
+                0x80000000007f0d20                spu_stop_req
+                0x80000000007f0d38                spu_mbox_stat_intr_out_mbox_count
+                0x80000000007f0d50                spu_mbox_stat_out_mbox_count
+                0x80000000007f0d68                spu_mfc_cmd_exec
+                0x80000000007f0d80                spu_mfc_cmd_tag_status
+ .opd           0x80000000007f0d98       0x18 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+                0x80000000007f0d98                vas_get_id
+ .opd           0x80000000007f0db0       0x30 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+                0x80000000007f0db0                mm_insert_htab_entry
+                0x80000000007f0dc8                mm_map_lpar_memory_region
+ .opd           0x80000000007f0de0       0x18 c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+                0x80000000007f0de0                sleep
+ .opd           0x80000000007f0df8       0xf0 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+                0x80000000007f0df8                _lv1_get_virtual_address_space_id_of_pu
+                0x80000000007f0e10                _lv1_destruct_logical_spu
+                0x80000000007f0e28                _lv1_construct_logical_spu
+                0x80000000007f0e40                _lv1_set_spu_interrupt_mask
+                0x80000000007f0e58                _lv1_clear_spu_interrupt_status
+                0x80000000007f0e70                _lv1_get_spu_interrupt_status
+                0x80000000007f0e88                _lv1_get_logical_pu_id
+                0x80000000007f0ea0                _lv1_set_spu_privilege_state_area_1_register
+                0x80000000007f0eb8                _lv1_insert_htab_entry
+                0x80000000007f0ed0                _lv1_enable_logical_spu
+ *(.opd64)
+ .opd64         0x80000000007f0ee8      0x1c0 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+                0x80000000007f0ee8                lv2_get_current_proc
+                0x80000000007f0ef8                lv2_proc_get_pid
+                0x80000000007f0f08                lv2_sys_open
+                0x80000000007f0f18                lv2_sys_read
+                0x80000000007f0f28                lv2_sys_write
+                0x80000000007f0f38                lv2_sys_close
+                0x80000000007f0f48                lv2_fs_open
+                0x80000000007f0f58                lv2_fs_read
+                0x80000000007f0f68                lv2_fs_write
+                0x80000000007f0f78                lv2_fs_lseek
+                0x80000000007f0f88                lv2_fs_stat
+                0x80000000007f0f98                lv2_fs_close
+                0x80000000007f0fa8                lv2_memset
+                0x80000000007f0fb8                lv2_memcpy
+                0x80000000007f0fc8                lv2_memcmp
+                0x80000000007f0fd8                lv2_strlen
+                0x80000000007f0fe8                lv2_strcpy
+                0x80000000007f0ff8                lv2_strncmp
+                0x80000000007f1008                lv2_allocate
+                0x80000000007f1018                lv2_deallocate
+                0x80000000007f1028                lv2_allocate_0x35
+                0x80000000007f1038                lv2_deallocate_0x35
+                0x80000000007f1048                lv2_copy_from_user
+                0x80000000007f1058                lv2_copy_to_user
+                0x80000000007f1068                lv2_get_milliseconds
+                0x80000000007f1078                lv2_snprintf
+                0x80000000007f1088                lv2_sprintf
+                0x80000000007f1098                lv2_printf
+
+.toc            0x80000000007f10a8       0x30
+                0x80000000007f10a8                __toc_start = .
+ *(.got)
+ .got           0x80000000007f10a8        0x8 linker stubs
+ .got           0x80000000007f10b0       0x18 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+ *(.toc)
+ .toc           0x80000000007f10c8       0x10 main.c.o
+
+.rodata         0x80000000007f1100      0x5a8
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.dumper_spu_self_size
+                0x80000000007f1100        0x8 data.c.o
+                0x80000000007f1100                dumper_spu_self_size
+ *fill*         0x80000000007f1108       0x78 00
+ .rodata.dumper_spu_self
+                0x80000000007f1180      0x528 data.c.o
+                0x80000000007f1180                dumper_spu_self
+
+.eh_frame_hdr   0x80000000007f16a8        0x0
+ .eh_frame_hdr  0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+
+.rela.dyn       0x80000000007f16a8        0x0
+ .rela.iplt     0x0000000000000000        0x0 linker stubs
+ .rela.start    0x0000000000000000        0x0 linker stubs
+ .rela.got      0x0000000000000000        0x0 linker stubs
+ .rela.got      0x0000000000000000        0x0 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+                0x80000000007f16c0                . = ALIGN (0x20)
+
+.data
+ *(.data)
+ *(.data.*)
+ *(.sdata)
+ *(.sdata.*)
+                0x80000000007f16c0                __self_end = .
+                0x80000000007f16c0                __bss_start = .
+
+.branch_lt      0x80000000007f16c0        0x0
+ .branch_lt     0x80000000007f16c0        0x0 linker stubs
+
+.bss
+ *(.sbss)
+ *(.sbss.*)
+ *(COMMON)
+ *(.bss)
+ *(.bss.*)
+                0x80000000007f16c0                __bss_end = .
+
+.iplt           0x80000000007f16c0        0x0
+ .iplt          0x0000000000000000        0x0 linker stubs
+                0x80000000007f16c0                . = ALIGN (0x20)
+
+.stack          0x80000000007f16c0     0x8000
+                0x80000000007f16c0                _stack_top = .
+                0x80000000007f96c0                . = (. + 0x8000)
+ *fill*         0x80000000007f16c0     0x8000 00
+                0x80000000007f96c0                _stack_bot = .
+                0x80000000007f96c0                __freemem = .
+OUTPUT(c:/erkdumper/ppu/payload/payload.elf elf64-powerpc)
+
+.debug_abbrev   0x0000000000000000      0x6b3
+ .debug_abbrev  0x0000000000000000       0x5f data.c.o
+ .debug_abbrev  0x000000000000005f      0x1af main.c.o
+ .debug_abbrev  0x000000000000020e      0x11b spu.c.o
+ .debug_abbrev  0x0000000000000329       0x14 start.s.o
+ .debug_abbrev  0x000000000000033d       0x14 util.s.o
+ .debug_abbrev  0x0000000000000351       0xd8 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .debug_abbrev  0x0000000000000429      0x1aa c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .debug_abbrev  0x00000000000005d3       0xbc c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+ .debug_abbrev  0x000000000000068f       0x12 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .debug_abbrev  0x00000000000006a1       0x12 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+
+.debug_info     0x0000000000000000     0x20e0
+ .debug_info    0x0000000000000000       0xc5 data.c.o
+ .debug_info    0x00000000000000c5      0xdf9 main.c.o
+ .debug_info    0x0000000000000ebe      0x819 spu.c.o
+ .debug_info    0x00000000000016d7       0x77 start.s.o
+ .debug_info    0x000000000000174e       0x76 util.s.o
+ .debug_info    0x00000000000017c4      0x156 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .debug_info    0x000000000000191a      0x5c5 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .debug_info    0x0000000000001edf      0x131 c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+ .debug_info    0x0000000000002010       0x6b c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .debug_info    0x000000000000207b       0x65 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+
+.debug_line     0x0000000000000000     0x1549
+ .debug_line    0x0000000000000000       0x76 data.c.o
+ .debug_line    0x0000000000000076      0x1e2 main.c.o
+ .debug_line    0x0000000000000258      0x227 spu.c.o
+ .debug_line    0x000000000000047f       0x68 start.s.o
+ .debug_line    0x00000000000004e7       0x5a util.s.o
+ .debug_line    0x0000000000000541       0x9e c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .debug_line    0x00000000000005df      0x1b2 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .debug_line    0x0000000000000791       0xae c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+ .debug_line    0x000000000000083f      0xab2 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .debug_line    0x00000000000012f1      0x258 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+
+.debug_pubnames
+                0x0000000000000000      0x2b8
+ .debug_pubnames
+                0x0000000000000000       0x3f data.c.o
+ .debug_pubnames
+                0x000000000000003f       0x30 main.c.o
+ .debug_pubnames
+                0x000000000000006f      0x190 spu.c.o
+ .debug_pubnames
+                0x00000000000001ff       0x21 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .debug_pubnames
+                0x0000000000000220       0x7c c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .debug_pubnames
+                0x000000000000029c       0x1c c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+
+.debug_pubtypes
+                0x0000000000000000      0x14e
+ .debug_pubtypes
+                0x0000000000000000       0x21 data.c.o
+ .debug_pubtypes
+                0x0000000000000021       0x78 main.c.o
+ .debug_pubtypes
+                0x0000000000000099       0x4f spu.c.o
+ .debug_pubtypes
+                0x00000000000000e8       0x22 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .debug_pubtypes
+                0x000000000000010a       0x2a c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .debug_pubtypes
+                0x0000000000000134       0x1a c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+
+.debug_str      0x0000000000000000      0xb24
+ .debug_str     0x0000000000000000       0xa8 data.c.o
+                                         0xd3 (size before relaxing)
+ .debug_str     0x00000000000000a8      0x6eb main.c.o
+                                        0x7c8 (size before relaxing)
+ .debug_str     0x0000000000000793      0x170 spu.c.o
+                                        0x53c (size before relaxing)
+ .debug_str     0x0000000000000903       0x6c c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+                                         0xf9 (size before relaxing)
+ .debug_str     0x000000000000096f      0x17d c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+                                        0x262 (size before relaxing)
+ .debug_str     0x0000000000000aec       0x38 c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+                                         0xb3 (size before relaxing)
+
+.comment        0x0000000000000000       0x11
+ .comment       0x0000000000000000       0x11 data.c.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 main.c.o
+ .comment       0x0000000000000000       0x12 spu.c.o
+ .comment       0x0000000000000000       0x12 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .comment       0x0000000000000000       0x12 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .comment       0x0000000000000000       0x12 c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+
+.debug_loc      0x0000000000000000     0x1a86
+ .debug_loc     0x0000000000000000      0xe9a main.c.o
+ .debug_loc     0x0000000000000e9a      0x25b spu.c.o
+ .debug_loc     0x00000000000010f5       0x71 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .debug_loc     0x0000000000001166      0x8a4 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .debug_loc     0x0000000000001a0a       0x7c c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+
+.debug_aranges  0x0000000000000000      0xc80
+ .debug_aranges
+                0x0000000000000000       0x30 main.c.o
+ .debug_aranges
+                0x0000000000000030      0x110 spu.c.o
+ .debug_aranges
+                0x0000000000000140       0x30 start.s.o
+ .debug_aranges
+                0x0000000000000170       0x30 util.s.o
+ .debug_aranges
+                0x00000000000001a0       0x30 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .debug_aranges
+                0x00000000000001d0       0x60 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .debug_aranges
+                0x0000000000000230       0x30 c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+ .debug_aranges
+                0x0000000000000260      0x840 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .debug_aranges
+                0x0000000000000aa0      0x1e0 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+
+.debug_ranges   0x0000000000000000      0xc80
+ .debug_ranges  0x0000000000000000       0x50 main.c.o
+ .debug_ranges  0x0000000000000050      0x100 spu.c.o
+ .debug_ranges  0x0000000000000150       0x20 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .debug_ranges  0x0000000000000170       0xd0 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .debug_ranges  0x0000000000000240       0x20 c:/erkdumper/plfw/tier\libtier.a(time.c.o)
+ .debug_ranges  0x0000000000000260      0x840 c:/erkdumper/plfw/tier\libtier.a(lv1.s.o)
+ .debug_ranges  0x0000000000000aa0      0x1e0 c:/erkdumper/plfw/tier\libtier.a(lv2.s.o)
+
+.debug_frame    0x0000000000000000      0x2e8
+ .debug_frame   0x0000000000000000       0x48 main.c.o
+ .debug_frame   0x0000000000000048      0x178 spu.c.o
+ .debug_frame   0x00000000000001c0       0x38 c:/erkdumper/plfw/tier\libtier.a(lv1.c.o)
+ .debug_frame   0x00000000000001f8       0xc8 c:/erkdumper/plfw/tier\libtier.a(mm.c.o)
+ .debug_frame   0x00000000000002c0       0x28 c:/erkdumper/plfw/tier\libtier.a(time.c.o)

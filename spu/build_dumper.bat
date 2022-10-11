@@ -1,0 +1,2 @@
+scetool --verbose --sce-type=SELF --key-revision=00 --self-auth-id=1FF000000A000001 --self-vendor-id=FF000000 --self-type=LDR --self-fw-version=0003005500000000 --self-ctrl-flags=0000000000000000000000000000000000000000000000000000000000000000 --self-cap-flags=0000000000000000000000000000000000000000000000780000000000000000 --encrypt dumper.elf dumper.spu.self
+                                                                                                                                                                                                                          

@@ -1,2 +1,2 @@
 # erkdumper
-flatz's root key dumper for ps3 (CFW only!)
+flatz's root key dumper for the ps3. mirror of source

@@ -1,0 +1,34 @@
+ifeq ($(strip $(PS3DEV)),)
+  ifeq ($(strip $(DEVKITPS3)),)
+    export PS3DEV := /usr/local/ps3dev
+  else
+    export PS3DEV := $(DEVKITPS3)
+  endif
+endif
+
+export PATH	:= $(PS3DEV)/bin:$(PS3DEV)/spu/bin:$(PATH)
+
+#---------------------------------------------------------------------------------
+
+PREFIX := spu-
+
+#---------------------------------------------------------------------------------
+
+MACHDEP = -ffunction-sections -fdata-sections
+
+#---------------------------------------------------------------------------------
+
+include $(PLFW)/rules/base
+include $(PLFW)/rules/data
+
+#---------------------------------------------------------------------------------
+
+TARGET   ?=	$(notdir $(CURDIR))
+BUILDDIR ?=	$(CURDIR)/build
+
+#---------------------------------------------------------------------------------
+
+%.final: %.elf
+	$(VERB) mkdir -p $(BUILDDIR)
+	$(VERB) $(STRIP) $< -o $(BUILDDIR)/$(notdir $<)
+	$(VERB) $(OBJCOPY) $(BUILDDIR)/$(notdir $<) $@

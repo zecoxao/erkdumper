@@ -1,0 +1,27 @@
+ifeq ($(strip $(PS3DEV)),)
+  ifeq ($(strip $(DEVKITPS3)),)
+    export PS3DEV := /usr/local/ps3dev
+  else
+    export PS3DEV := $(DEVKITPS3)
+  endif
+endif
+
+export PATH	:= $(PS3DEV)/bin:$(PS3DEV)/ppu/bin:$(PATH)
+
+#---------------------------------------------------------------------------------
+
+PREFIX := ppu-
+
+#---------------------------------------------------------------------------------
+
+MACHDEP = -mcpu=cell -mhard-float -fmodulo-sched
+
+#---------------------------------------------------------------------------------
+
+include $(PLFW)/rules/base
+include $(PLFW)/rules/data
+
+#---------------------------------------------------------------------------------
+
+TARGET   ?=	$(notdir $(CURDIR))
+BUILDDIR ?=	$(CURDIR)/build

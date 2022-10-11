@@ -1,0 +1,118 @@
+ifeq ($(strip $(PS3DEV)),)
+  ifeq ($(strip $(DEVKITPS3)),)
+    export PS3DEV := /usr/local/ps3dev
+  else
+    export PS3DEV := $(DEVKITPS3)
+  endif
+endif
+
+UNAME := $(shell uname -s)
+
+# Allow for 'make VERBOSE=1' to see the recepie executions
+ifndef VERBOSE
+  VERB := @
+endif
+
+#---------------------------------------------------------------------------------
+
+# Don't auto-delete elf files
+.PRECIOUS: %.elf
+
+#---------------------------------------------------------------------------------
+# the prefix on the compiler executables
+#---------------------------------------------------------------------------------
+
+export AS      := $(PREFIX)as
+export CC      := $(PREFIX)gcc
+export CXX     := $(PREFIX)g++
+export LD      ?= $(PREFIX)gcc
+export AR      := $(PREFIX)ar
+export STRIP   := $(PREFIX)strip
+export OBJCOPY := $(PREFIX)objcopy
+
+#---------------------------------------------------------------------------------
+# additional tools
+#---------------------------------------------------------------------------------
+
+export ECHO := /bin/echo
+export MAKE := /bin/make
+export RM   := /bin/rm -f
+
+#---------------------------------------------------------------------------------
+
+# Use dependencies when user has defined a place to put them into
+ifneq (,$(DEPSDIR))
+	DEPSOPT = -MMD -MP -MF $(DEPSDIR)/$@.d
+endif
+
+OBJCOPY_FLAGS = 
+
+#---------------------------------------------------------------------------------
+
+ifneq (,$(findstring MINGW,$(UNAME)))
+	POSTFIX := .exe
+endif
+
+ifneq (,$(findstring CYGWIN,$(UNAME)))
+	POSTFIX := .exe
+endif
+
+#---------------------------------------------------------------------------------
+
+%.a:
+	$(VERB) @$(ECHO) archiving ... $(notdir $@)
+	$(VERB) $(RM) $@
+	$(VERB) $(AR) -rc $@ $^
+
+#---------------------------------------------------------------------------------
+
+%.elf: $(OFILES)
+	$(VERB) @$(ECHO) linking ... $(notdir $@)
+	$(VERB) $(LD) $^ $(LDFLAGS) $(LIBPATHS) $(LIBS) -o $@
+
+#---------------------------------------------------------------------------------
+
+%.pl: %.elf
+	$(VERB) @$(ECHO) making payload ... $(notdir $@)
+	$(VERB) $(STRIP) -s $^ -o $@
+	$(VERB) $(OBJCOPY) -O binary $(OBJCOPY_FLAGS) $@ $@
+
+#---------------------------------------------------------------------------------
+
+%.cc.o: %.cc
+	$(VERB) @$(ECHO) $(notdir $<)
+	$(VERB) $(CXX) $(DEPSOPT) $(CXXFLAGS) -c $< -o $@
+
+#---------------------------------------------------------------------------------
+
+%.c.o: %.c
+	$(VERB) @$(ECHO) $(notdir $<)
+	$(VERB) $(CC) $(DEPSOPT) $(CFLAGS) -c $< -o $@
+
+#---------------------------------------------------------------------------------
+
+%.s.o: %.s
+	$(VERB) @$(ECHO) $(notdir $<)
+	$(VERB) $(CC) $(DEPSOPT) -x assembler-with-cpp -D__ASSEMBLY__ $(ASFLAGS) -c $< -o $@
+
+#---------------------------------------------------------------------------------
+
+%.S.o: %.S
+	$(VERB) @$(ECHO) $(notdir $<)
+	$(VERB) $(CC) $(DEPSOPT) -x assembler-with-cpp -D__ASSEMBLY__ $(ASFLAGS) -c $< -o $@
+
+#---------------------------------------------------------------------------------
+# canned command sequence for binary data
+#---------------------------------------------------------------------------------
+
+define bin2o
+	$(VERB) bin2s -a 64 $< | $(AS) -o $(@)
+	$(VERB) @$(ECHO) "extern const u8" `(echo $(<F) | sed -e 's/^\([0-9]\)/_\1/' | tr . _)`"_end[];" > `(echo $(<F) | tr . _)`.h
+	$(VERB) @$(ECHO) "extern const u8" `(echo $(<F) | sed -e 's/^\([0-9]\)/_\1/' | tr . _)`"[];" >> `(echo $(<F) | tr . _)`.h
+	$(VERB) @$(ECHO) "extern const u32" `(echo $(<F) | sed -e 's/^\([0-9]\)/_\1/' | tr . _)`_size";" >> `(echo $(<F) | tr . _)`.h
+endef
+
+define bin2c
+	# $(VERB) bin2c -n $(basename $(notdir $@)) -d $(addsuffix .h,$(basename $@)) -o $@ $<
+	$(VERB) bin2c -n $(basename $(notdir $@)) -o $@ $<
+endef

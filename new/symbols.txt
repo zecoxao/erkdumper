@@ -1,0 +1,1 @@
+toc, extend_kstack, copy_to_user, memset, memcpy, syscall table, GAMEOS_LPAR_BASE_PTR, GAMEOS_LPAR_SIZE_PTR
